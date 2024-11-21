@@ -1,0 +1,5 @@
+Version	notes
+0.0.1	Initial implementation of the app taking name of reactors, manual and PioReactor OD readings. These are used to calibrate raw ODs from PioReactors using a linear regression model.
+0.0.2	Add the option to give only initial and final manual OD values and name of reactor, the app will then take a set of readings from start and end of bioreactor ODs as the corresponding ODs to the manual readings.
+0.0.3	Increase of the size allowed to be uploaded to the app. Maximum file size set to: options(shiny.maxRequestSize = 100*1024^2) (100 MB). This fix comes from: https://shiny.posit.co/r/articles/build/upload/
+0.0.4	Added 'simplify=F' to the sapply() function of pioreactor_unit names in the output data frame of write_calibrate_od_to_pio_format, to prevent multiple columns with pioreactor names.

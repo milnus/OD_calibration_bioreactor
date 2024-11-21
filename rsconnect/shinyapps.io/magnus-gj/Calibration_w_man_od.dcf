@@ -1,0 +1,12 @@
+name: Calibration_w_man_od
+title: Calibration_w_man_od
+username: magnus-gj
+account: magnus-gj
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 12269452
+bundleId: 9173672
+url: https://magnus-gj.shinyapps.io/Calibration_w_man_od/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
